@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
+
+    <title>Devolución</title>
+</head>
+<body class="animate__animated animate__fadeIn">
+    <div class="container">
+    <header>
+        <div class="back-btn" id="btn-return-mainmenu">
+            <img class="icon" src="../img/icons/back.png" alt="">
+            <span>Regresar</span>
+        </div>
+        <h1>Registrar devolución</h1>
+    </header>
+    <div class="container-window">
+        
+        <div class="container-rental">
+            <div class="content-partner">
+                <h1>Socio</h1>
+                <div class="search-container">
+                    <input class="form-control me-sm-2" type="search" name="partner" id="searchPartner" placeholder="buscar ID" pattern="[0-9]{0,5}">
+                    <button id="btn-search" class="btn btn-primary">Buscar</button>
+                </div>
+                <div hidden id="info-message" class="animate__animated">
+                    <p>El ID son los 3 digitos que se encuentran en la credencial del socio</p>
+                </div>
+                <div class="partner-info">
+                    <h3 hidden class="animate__animated animate__fadeIn" id="no-data"></h3>
+
+                    <div hidden id="card-show" class="card text-white bg-success mb-3 animate__animated animate__fadeIn" style="max-width: 15rem; ">
+                        <div class="card-header" style="background:#515151 !important; text-align: center;">
+                            Socio
+                        </div>
+                        <div class="card-body">
+                            <h3 id="member-name" ></h3>
+                             <h3 id="member-id" ></h3>
+                        </div>
+                    </div>
+                    <p hidden id="message-no-articles">El socio no tiene artículos rentados</p>
+                </div>
+            </div>
+            <div class="content-item">
+                <h1>Artículos rentados</h1>
+                                      
+
+                </select>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="articles-to-return" >
+                        
+                    </tbody>
+                </table>
+                <div class="btn-return-all-container">
+                    <p hidden id="message-no-articles">El socio no tiene artículos rentados</p>
+                    <button hidden id="btn-return-all" class="btn-edit-md btn-padding btn btn-secondary">Devolver Todo</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="returnrental.js"></script>
+</body>
+</html>

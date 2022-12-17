@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Editar artículo</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="back-btn"id="return-stocktacking">
+            <img class="icon" src="../img/icons/back.png" alt="">
+            <span>Regresar</span>
+        </div>
+        <h1>Registrar Inventario</h1>
+    </header>
+    <div class="stock-content">
+        
+        <div class="stock-available">
+            <h2>Editar artículo</h2>
+            <label for="addarticle">Nombre</label>
+            <input  class="input-text" type="text" name="addarticle" id="editarticle" placeholder="Nombre">
+            <label for="pieces">Piezas</label>
+            <input min="1" class="input-number" type="number" name="pieces" id="editpieces" placeholder="Piezas">
+            <label for="price">Precio</label>
+            <input min="1" class="input-number" type="number" name="price" id="editprice" placeholder="Precio">
+            <span  id="result-add-article"></span>
+        </div>
+    </div>
+    <div class="exit-container">
+        
+        <button class="btn-edit-md btn btn-secondary rounded-0" id="btn-save-edit">Editar</button>
+        <button class="btn-edit-md btn btn-danger rounded-0" id="btn-cancel-save">Cancelar</button>
+    </div>
+</div>
+<script src="stocktaking.js"></script>
+</body>
+</html>

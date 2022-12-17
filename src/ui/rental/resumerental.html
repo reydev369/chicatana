@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
+
+    <title>Resumen de renta</title>
+</head>
+<body class="animate__animated animate__fadeIn">
+    <div class="container">
+    <header>
+        <div class="back-btn" id="btn-return-mainmenu">
+            <img class="icon" src="../img/icons/back.png" alt="">
+            <span>Regresar</span>
+        </div>
+        <h1>Resumen de la renta</h1>
+    </header>
+    <div class="resume-container">
+        
+        <div class="container-member-data">
+           <span id="date">Fecha</span>
+           <h3 id="resume-paytype">Tipo de pago: </h3>
+           
+        </div>
+        <div class="container-items-resume">
+            
+            <h2 id="resume-total">Total:</h2>
+            <h2 id="resume-received"></h2>
+            <h2 id="resume-change"></h2>
+            <div class="buttons-resume">
+                <button class="btn-edit btn-padding btn btn-danger" id="btn-resume-exit">Salir</button>
+            </div>
+        </div>
+    </div>
+    <script src="rental.js"></script>
+</body>
+</html>

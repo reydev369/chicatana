@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <title>Agregar artículo</title>
+</head>
+<body class="animate__animated animate__fadeIn">
+    <div class="container">
+    <header>
+        <div class="back-btn" id="return-stocktacking">
+            <img class="icon" src="../img/icons/back.png" alt="">
+            <span>Regresar</span>
+        </div>
+        <h1>Registrar Inventario</h1>
+    </header>
+    <div class="stock-content">
+        
+        <div class="stock-available">
+            <h2>Agregar artículo</h2>
+            
+            <input class="input-text" type="text" name="addarticle" id="addarticle" placeholder="Nombre">
+            <input class="input-number" type="number" min="1" name="pieces" id="pieces" placeholder="Piezas">
+            <input class="input-number" type="number" min="1" name="price" id="price" placeholder="Precio">
+
+        </div>
+    </div>
+    <span hidden id="result-add-article" class="animate__animated animate__fadeIn"></span>
+
+    <div class="exit-container">
+        
+        <button class="btn-edit-md btn btn-secondary rounded-0" id="btn-save-article">Guardar</button>
+        <button class="btn-edit-md btn btn-danger rounded-0" id="btn-cancel-save">Cancelar</button>
+    </div>
+</div>
+<script type="module" src="stocktaking.js"></script>
+
+</body>
+</html>
