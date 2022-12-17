@@ -1,7 +1,10 @@
 # chicatana
 Chicatana Ing. Sonfware
 
-Intalar git
+🔴Instalar Nodejs
+🔴Instalar git
+
+
 1. Clonar repositorio con "git clone https://github.com/reyfree/chicatana.git" (sin comillas)
 
 2. Entrar a la carpeta y en la terminal ejecutar "npm install" (sin comillas)
