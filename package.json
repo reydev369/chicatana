@@ -1,0 +1,25 @@
+{
+  "name": "ccc-blancos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "electron": "^22.0.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "promise-mysql": "^5.2.0"
+  }
+}
+
+
+
+
+
